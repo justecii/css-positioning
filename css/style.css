@@ -3,9 +3,100 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+html, body {
+	margin: 0;
+	padding: 0;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+}
+
+h2 {
+	color: #1c5380;
+	padding: 10px 240px 0px 20px;
+}
+
+
+
+
+
+
+.phone {
+	position: relative;
+	margin-top:100px;
+	margin-left: 100px;
+
+}
+
+.box {
+	display: inline-block;
+}
+
+.login {
+	border: 1px solid #06365f;
+	border-radius: 2%;
+	height: 40px;
+	width: 100px;
+	background: linear-gradient(#06365f, #1c5380);
+	color: white;
+
+}
+
+.tophead {
+	display: inline-block;
+}
+
+.bold {
+	font-weight: bold;
+}
+.apple {
+	background: black;
+	color: white;
+}
+.android {
+	background: black;
+	color: white;
+}
+
+
+
+.downloads {
+	display: inline-block;
+}
+
+#blue {
+	background: linear-gradient(#06365f, #1c5380);
+	position: absolute;
+	top:0px;
+	height: 40%;
+	width: 100%;
+	z-index: -1;
+
+}
+#white {
+	background-color: white;
+	position: absolute;
+	bottom:0px;
+	height: 60%;
+	width: 100%;
+	z-index: -1;
+
+}
+
+#mainbody {
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-image: url("img/frame.png");
+	width: 50%;
+	display: inline-block;
+}
+
+#footer {
+	background-color: grey;
+	display: relative;
+	bottom: 0px;
+
 }
